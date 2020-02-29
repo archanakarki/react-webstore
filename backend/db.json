@@ -3,16 +3,25 @@
     {
       "id": 1,
       "name": "Hat",
+      "price": 10,
+      "currency": "euro",
+      "currencySymbol": "€",
       "date": "2019-05-30T17:30:31.098Z"
     },
     {
       "id": 2,
-      "name": "Hat",
+      "name": "T-shirt",
+      "price": 15,
+      "currency": "euro",
+      "currencySymbol": "€",
       "date": "2019-05-30T18:39:34.091Z"
     },
     {
       "id": 3,
-      "name": "Hat",
+      "name": "Dress",
+      "price": 20,
+      "currency": "euro",
+      "currencySymbol": "€",
       "date": "2019-05-30T19:20:14.298Z"
     }
   ]

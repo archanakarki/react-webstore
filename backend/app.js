@@ -3,13 +3,14 @@ const app = express();
 const bodyParser = require('body-parser');
 const cors = require('cors');
 const PORT = process.env.PORT || 3001;
-const products = require('./db.json')
+const db = require('./db.json')
+const products = db.products
 
 app.use(bodyParser.json());
 app.use(cors());
 
+console.log(products)
 app.get('/', (req, res) => {
-    console.log(products)
     res.send(products);
 });
 
